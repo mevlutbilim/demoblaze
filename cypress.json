@@ -5,9 +5,10 @@
     "responseTimeout": 6000,
     "waitForAnimations": false,
     "animationDistanceThreshold": 50,
-    "ignoreTestFiles": ["*.js","*.md"],
-   
+    
 
+    "testFiles": "**/*.feature",
+    
     "baseUrl":"https://www.demoblaze.com",
     "env":{
         "userName": "blazeme",

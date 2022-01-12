@@ -7,12 +7,18 @@
     "test": "cypress run",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
+    "cy:tests": "cypress run",
     "dev": "start-test 5000 cy:open",
     "e2e": "start-test 5000 cy:run"
   },
   "dependencies": {
-    "cypress": "^9.1.1",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "prettier": "^2.5.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "cypress": "^9.1.1"
   }
 }
